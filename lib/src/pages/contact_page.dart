@@ -19,15 +19,16 @@ class _ContactPageState extends State<ContactPage> {
         child: Column(
           children: [
             Text(
-              'Sabemos que siempre existen dudas.',
+              'SABEMOS QUE SIEMPRE EXISTEN DUDAS.',
               style: TextStyle(
                 fontFamily: 'Roboto-Medium',
                 fontSize: 21.0,
               ),
+              textAlign: TextAlign.center,
             ),
             SizedBox(height: 10.0),
             Text(
-              'Contáctanos por:',
+              'CONTÁCTANOS POR:',
               style: TextStyle(
                 fontFamily: 'Roboto-Medium',
                 fontSize: 21.0,
@@ -67,10 +68,10 @@ class _ContactPageState extends State<ContactPage> {
             ),
             SizedBox(height: 20.0),
             Text(
-              'Preguntas Frecuentes',
+              'PREGUNTAS FRECUENTES',
               style: TextStyle(
                 fontFamily: 'Roboto-Medium',
-                fontSize: 25.0,
+                fontSize: 21.0,
               ),
             ),
             SizedBox(height: 20.0),

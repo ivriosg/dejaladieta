@@ -91,7 +91,9 @@ class _FrontPageState extends State<FrontPage> {
                     elevation: 10.0,
                     shape: StadiumBorder(),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, 'challenges');
+                  },
                   child: Text(
                     'Ver Retos'.toUpperCase(),
                     style: TextStyle(
