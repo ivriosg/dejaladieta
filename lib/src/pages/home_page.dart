@@ -4,7 +4,7 @@ import 'package:dejaladieta/src/pages/front_page.dart';
 import 'package:dejaladieta/src/pages/challenges_page.dart';
 import 'package:dejaladieta/src/pages/contact_page.dart';
 import 'package:dejaladieta/src/pages/cart_page.dart';
-import 'package:dejaladieta/src/pages/account_page.dart';
+import 'package:dejaladieta/src/pages/account/account_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

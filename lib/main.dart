@@ -5,7 +5,12 @@ import 'src/pages/front_page.dart';
 import 'src/pages/challenges_page.dart';
 import 'src/pages/contact_page.dart';
 import 'src/pages/cart_page.dart';
-import 'src/pages/account_page.dart';
+import 'src/pages/account/account_page.dart';
+import 'src/pages/account/account_challenges.dart';
+import 'src/pages/account/account_history.dart';
+
+import 'src/pages/verify/login.dart';
+import 'src/pages/verify/sign_in.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,6 +28,10 @@ class MyApp extends StatelessWidget {
         'contact': (BuildContext context) => ContactPage(),
         'cart': (BuildContext context) => CartPage(),
         'account': (BuildContext context) => AccountPage(),
+        'account-challenges': (BuildContext context) => AccountChallengesPage(),
+        'account-history': (BuildContext context) => AccountHistoryPage(),
+        'login': (BuildContext context) => LoginPage(),
+        'sign-in': (BuildContext context) => SigninPage(),
       },
     );
   }
